@@ -49,7 +49,53 @@ def handle_response(text: str) -> str:
     if 'how old are you?' in processed:
         return 'I am 26 years old.'
 
+    if 'what is your favourite food?' in processed:
+        return 'Its aloo fried.'
 
+    if 'do you love coding?' in processed:
+        return 'Yes, unless i encounter an error.'
+
+    if 'are you a human?' in processed:
+        return 'I am a cyborg.'
+
+    if 'what is the capital of Nepal?' in processed:
+        return 'Kathmandu'
+
+    if 'do you have a girlfriend?' in processed:
+        return 'I am ugly, so use your logic.'
+
+    if 'what is life?' in processed:
+        return 'Its a short journey.'
+
+    if 'where do you live?' in processed:
+        return 'I live in Nepal.'
+
+    if 'what is the tallest mountain of world?' in processed:
+        return 'Mount Everest.'
+
+    if 'who is the most beautiful woman in this world?' in processed:
+        return 'My mom.'
+
+    if 'What is the best part of yourself?' in processed:
+        return 'My simplicity..'
+
+    if 'How is this world?' in processed:
+        return 'This world is beautiful and amazing.'
+
+    if 'Do read books??' in processed:
+        return 'I rarely do nowadays but priorly i used to do it alot.'
+
+    if 'Whats your hobby?' in processed:
+        return 'I love singing.'
+
+    if 'What is your favourite color?' in processed:
+        return 'Its blue.'
+
+    if 'Are you boring?' in processed:
+        return 'Ofcourse i am.'
+
+    if 'Thank you.' in processed:
+        return 'Welcome.'
 
     return 'I am sorry, I am not updated to answer these questions yet.'
 
